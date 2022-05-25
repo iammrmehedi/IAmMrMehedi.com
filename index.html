@@ -4,25 +4,83 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="shortcut icon" href="./accets/favicon.ico" type="image/x-icon" />
  <link rel="stylesheet" href="./styles.css">
+ <link rel="stylesheet" href="./loader.css">
  <title>IAmMrMehedi</title>
 </head>
-<body>
- <div class="header">
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+ <div class="header" >
   <p align="center">
    <a href="#"> <img src="./accets/logo.png" alt="logo"> </a>
   </p>
  </div>
- <div class="bg">
+ <div class="bg" >
   <p align="center">
-    <img src="./accets/IAmMrMehedi.png" alt="profile-photo"> 
+    <img width="200" src="./accets/IAmMrMehedi.png" alt="profile-photo"> 
   </p>
+  <h1 align="center">MeHeDi HaSaN</h1>
+  <h2 align="center"> A Technophile who just loves to learn and explore new things.</h2>
+  <h4 align="center">
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+    <br>
+    404
+  </h4>
  </div>
  <div class="footer">
-  <a href="facebook.com/iammrmehedii"><img src="" alt="fb-logo"></a>
-  <a href="github.com/iammrmehedi"><img src="" alt="gh-logo"></a>
-  <a href="twitter.com/iammrmehedi"><img src="" alt="tw-logo"></a>
-  <a href="instagram.com/iammrmehedii"><img src="" alt="ig-logo"></a>
+   <div class="row">
+    <div class="column">
+       <a href="https://www.facebook.com/iammrmehedii" target="_blank"><img width="30px" src="./accets/facebook-brands.svg" alt="fb-logo"></a>
+    </div>
+    <div class="column">
+  <a href="https://www.instagram.com/iammrmehedii" target="_blank"><img width="27px" src="./accets/instagram-brands.svg" alt="ig-logo"></a>
+</div>
+<div class="column">
+  <a href="https://www.twitter.com/iammrmehedi" target="_blank"><img width="30px" src="./accets/twitter-brands.svg" alt="tw-logo"></a>
+</div>
+<div class="column">
+  <a href="https://www.github.com/iammrmehedi" target="_blank"><img width="30px" src="./accets/github-brands.svg" alt="gh-logo"></a>
+</div>
+</div>
  </div>
+</div>
+ <script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+  </script>
 </body>
 </html>
