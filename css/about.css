@@ -27,10 +27,10 @@ body {
 
 .nav ul li {
   margin: 20px;
-  padding: 15px;
+  padding: 10px;
   font-size: 20px;
-  /* border: 1px solid white;
-  border-radius: 10px; */
+  border: 1px solid none;
+  border-radius: 5px;
 }
 
 .nav ul li a {
@@ -41,8 +41,16 @@ body {
 /* Main Body Start  */
 .bg {
   text-align: center;
-  font-size: 50px;
-  padding: 20vh;
+}
+.itsme {
+  width: auto;
+  height: 250px;
+  padding-bottom: 17px;
+}
+
+.rt {
+  font-size: 18px;
+  margin-top: 15px;
 }
 /* Main Body End  */
 .me {
@@ -53,10 +61,10 @@ body {
 /* Footer Start  */
 .footer {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   bottom: 0px;
-  padding: 25px;
+  padding-bottom: 10px;
   font-size: 20px;
 }
 /* Footer End  */

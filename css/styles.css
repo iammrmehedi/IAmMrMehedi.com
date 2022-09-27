@@ -32,9 +32,7 @@ background: linear-gradient(
  text-decoration: none;
  color: white;
 }
-.nav ul li a:hover {
-  background-color: transparent;
-}
+
 /* Navbar End  */
 /* Main Body Start  */
 .bg {

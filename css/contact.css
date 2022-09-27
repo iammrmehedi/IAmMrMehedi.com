@@ -27,10 +27,10 @@ body {
 
 .nav ul li {
   margin: 20px;
-  padding: 15px;
+  padding: 10px;
   font-size: 20px;
-  /* border: 1px solid white;
-  border-radius: 10px; */
+  border: 1px solid none;
+  border-radius: 5px;
 }
 
 .nav ul li a {
@@ -41,9 +41,20 @@ body {
 /* Main Body Start  */
 .bg {
   text-align: center;
-  font-size: 50px;
+}
+.abthdr{
+  font-size: 20px;
   padding: 20vh;
 }
+.social-links {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+.social-links a {
+    padding: 0px 20px;
+}
+
 /* Main Body End  */
 .me {
   color: black;
@@ -53,10 +64,10 @@ body {
 /* Footer Start  */
 .footer {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   bottom: 0px;
-  padding: 25px;
+  padding-bottom: 10px;
   font-size: 20px;
 }
 /* Footer End  */
